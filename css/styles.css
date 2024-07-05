@@ -197,7 +197,7 @@ img {
   align-items: center;
   border: none;
   border-radius: 4px;
-  max-width: 169px;
+  min-width: 169px;
   height: 56px;
   margin: auto;
 }
@@ -341,8 +341,6 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: left;
-}
-.subtitle {
 }
 
 .portfolio-subtitle {
