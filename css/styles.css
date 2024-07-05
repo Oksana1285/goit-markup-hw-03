@@ -77,6 +77,11 @@ h6 {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+img {
+  display: block;
+}
+
 /* ------HEADER------*/
 
 .page-header {
@@ -86,6 +91,9 @@ h6 {
 .header-container {
   display: flex;
   align-items: center;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header-nav {
@@ -102,12 +110,12 @@ h6 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
+  padding: 24px 0;
 }
 
 .header-logo .logo-part {
   color: #2e2f42;
-  padding: 24px 0;
-  margin-right: 76px;
 }
 
 .footer-logo .logo-part {
@@ -138,6 +146,7 @@ h6 {
 .contacts-list {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
 .contacts-link {
@@ -179,9 +188,6 @@ h6 {
 
 .hero-button {
   background-color: #4d5ae5;
-  max-width: 169px;
-  margin: auto;
-  height: 56px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -191,6 +197,9 @@ h6 {
   align-items: center;
   border: none;
   border-radius: 4px;
+  max-width: 169px;
+  height: 56px;
+  margin: auto;
 }
 
 .hero-button:hover,
@@ -199,6 +208,7 @@ h6 {
 }
 /* ------ADVANTAGES ------*/
 .advantages {
+  padding: 120px 0;
 }
 
 .advantages-container {
@@ -231,13 +241,10 @@ h6 {
 /* ------OUR TEAM ------*/
 .team {
   background: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .team-container {
-  max-width: 1440px;
-  margin: 0 auto;
 }
 
 .team-title {
@@ -248,7 +255,7 @@ h6 {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -269,9 +276,12 @@ h6 {
   align-items: center;
 }
 
+.team-item-nametag {
+  padding: 32px 0;
+}
+
 .team-subtitle {
   text-align: center;
-  padding-top: 32px;
   margin-bottom: 8px;
 }
 
@@ -281,16 +291,15 @@ h6 {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  padding-bottom: 32px;
 }
 
 /* ------PORTFOLIO ------*/
 .portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
   max-width: 1128px;
 }
 
@@ -302,15 +311,15 @@ h6 {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  column-gap: 48px;
-  row-gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-item {
@@ -318,6 +327,14 @@ h6 {
 }
 .portfolio-image {
 }
+
+.portfolio-item-nametag {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+
 .portfolio-text {
   font-size: 16px;
   line-height: 1.5;
@@ -339,15 +356,14 @@ h6 {
   background-color: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
-  margin: auto;
 }
 
 .footer-container {
-  display: flex;
-  max-width: 264px;
 }
 
 .footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
@@ -355,4 +371,5 @@ h6 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
