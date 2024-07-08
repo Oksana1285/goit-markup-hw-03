@@ -99,7 +99,6 @@ img {
 .header-nav {
   display: flex;
   align-items: center;
-  gap: 40px;
 }
 
 .logo {
@@ -173,7 +172,6 @@ img {
 }
 
 .hero-container {
-  margin: auto;
 }
 
 .hero-title {
@@ -182,8 +180,10 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  display: flex;
+  align-items: center;
   max-width: 496px;
-  margin: 48px auto;
+  margin: 0px auto;
 }
 
 .hero-button {
@@ -199,7 +199,7 @@ img {
   border-radius: 4px;
   min-width: 169px;
   height: 56px;
-  margin: auto;
+  margin: 48px auto 0px auto;
 }
 
 .hero-button:hover,
@@ -208,7 +208,6 @@ img {
 }
 /* ------ADVANTAGES ------*/
 .advantages {
-  padding: 120px 0;
 }
 
 .advantages-container {
@@ -262,7 +261,6 @@ img {
   display: flex;
   align-items: center;
   gap: 24px;
-  padding-bottom: 120px;
 }
 
 .team-item {
@@ -329,6 +327,7 @@ img {
 }
 
 .portfolio-item-nametag {
+  width: 360px;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
