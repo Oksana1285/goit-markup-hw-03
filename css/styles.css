@@ -208,12 +208,12 @@ img {
 }
 /* ------ADVANTAGES ------*/
 .advantages {
-}
-
-.advantages-container {
   padding-top: 120px;
   padding-bottom: 120px;
   margin: auto;
+}
+
+.advantages-container {
 }
 
 .advantages-text {
